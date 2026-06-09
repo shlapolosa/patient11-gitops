@@ -46,6 +46,7 @@ spec:
     type: graphql-gateway
     properties:
       name: patient11-graph
+      image: healthidpuaeacr.azurecr.io/patient11-graph@sha256:8d3c43be4a14c9c3a61e9fadc2d2019d0733a231f84f7d9e45b7befdcb405076
       identity: patient11-auth0
       sources:
       - name: patient11-api
