@@ -1,6 +1,8 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
+  annotations:
+    app.oam.dev/publishVersion: graph-jwt-enforce-v1
   name: patient11
   namespace: default
 spec:
