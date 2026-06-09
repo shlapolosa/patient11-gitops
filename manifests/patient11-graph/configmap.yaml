@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: patient11-graph-config
+  namespace: default
+data:
+  APP_ENV: "production"
+  SERVICE_NAME: "patient11-graph"
+  REDIS_URL: "redis://:$REDIS_PASSWORD@patient11-redis-master.patient11.svc.cluster.local:6379/0"
